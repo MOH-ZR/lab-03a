@@ -22,13 +22,7 @@ function checkingUserInput() {
     }
 }
 
-// using conditionals and functions to execute a specific action a certain number of times
-function printStars() {
-    var numOfStars = prompt("How many Stars dou you wantto be printed?");
-    for (var i = 1; i <= numOfStars; i++) {
-        document.write('<h5>', "*", '</h5>');
-    }
-}
+
 
 // calling checkingUserInput function
 checkingUserInput();
@@ -38,3 +32,11 @@ document.write('<b>', "Amman - Jordan", '</b>');
 document.write("\n");
 document.write("\n");
 printStars();
+
+// using conditionals and functions to execute a specific action a certain number of times
+function printStars() {
+    var numOfStars = prompt("How many Stars dou you wantto be printed?");
+    for (var i = 1; i <= numOfStars; i++) {
+        document.write('<h5>', "*", '</h5>');
+    }
+}
