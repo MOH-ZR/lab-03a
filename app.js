@@ -1,6 +1,5 @@
-
 function checkingUserInput() {
-    // validation 
+   // validation 
     var countryName = prompt("Where are you from?");
     while (countryName !== 'jordan' && countryName !== 'palestine') {
         countryName = prompt("Where are you from?");
@@ -23,8 +22,19 @@ function checkingUserInput() {
     }
 }
 
+// using conditionals and functions to execute a specific action a certain number of times
+function printStars() {
+    var numOfStars = prompt("How many Stars dou you wantto be printed?");
+    for (var i = 1; i <= numOfStars; i++) {
+        document.write('<h5>', "*", '</h5>');
+    }
+}
 
 // calling checkingUserInput function
 checkingUserInput();
 document.write("\n");
 document.write('<b>', "Amman - Jordan", '</b>');
+
+document.write("\n");
+document.write("\n");
+printStars();
